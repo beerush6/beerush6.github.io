@@ -59,7 +59,6 @@ button { font: inherit; }
   width: 124px;
   height: 154px;
   object-fit: cover;
-  filter: grayscale(100%) contrast(1.05);
   background: var(--surface);
 }
 .eyebrow, h1 { margin: 0; letter-spacing: -.065em; }
@@ -108,7 +107,7 @@ cite { display: block; color: var(--muted); font-weight: 500; }
 }
 h2 { margin: 0 0 21px; font-size: 1.55rem; letter-spacing: -.035em; }
 .copy p { max-width: 700px; margin: 0 0 19px; color: var(--muted); font-size: 1.02rem; line-height: 1.62; }
-mark { color: var(--text); background: var(--mark); padding: 2px 4px; border-radius: 3px; }
+mark { color: var(--text); background: transparent; padding: 0; }
 
 .section-nav { display: flex; align-content: flex-start; flex-wrap: wrap; gap: 8px; padding-top: 1px; }
 .section-pill {
